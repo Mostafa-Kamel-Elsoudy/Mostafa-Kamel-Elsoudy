@@ -1,30 +1,23 @@
-# Mostafa Kamel Elsoudy
+# Mostafa Kamel Elsoudy — Electronics & Communications Engineer | Linux Infrastructure, Security Operations Tooling & Automation
 
-**Aspiring SOC Analyst (L1) | Blue Team | Cairo, Egypt**
+Cairo, Egypt. I build and document small Linux infrastructure and SOC tooling projects, and I am applying for junior DevOps, infrastructure and SOC roles.
 
-Electronics & Communications engineer moving into Security Operations. My path into security started with logs: writing scripts that turn raw output into answers. Now I am training full time for a junior SOC Analyst role, and this profile is where that work lives.
+## Core stack
 
-## Why security, and why I fit it
+- Linux administration: RHEL/Ubuntu, `systemd`, `AppArmor`, `UFW`
+- SOC and log pipelines: `rsyslog`, `OpenSearch`, `Nginx` TLS reverse proxies
+- Automation: `Python`, `Bash`, `SQL`, `Git`, `Docker`
+- Bare-metal and local LLM operations: `Ollama`/`vLLM` health probing, host/GPU thermal telemetry
 
-- During my internship at **Si-Vision** I wrote Python and Bash scripts to parse and automate verification logs, turning thousands of lines of output into clear, actionable results. Reading noise, finding the signal, and escalating what matters is exactly what a SOC analyst does all day.
-- My data engineering work (pinned below) shows I can build reliable pipelines, validate data, and automate reporting. Those skills map directly onto SIEM queries, log parsing, and detection engineering.
-- Engineering background means I am comfortable close to the metal: networks, systems, and how things actually break.
+## Featured infrastructure and SOC projects
 
-## Current focus
+- [soc-log-pipeline-lab](https://github.com/Mostafa-Kamel-Elsoudy/soc-log-pipeline-lab): rsyslog to OpenSearch behind an Nginx TLS proxy, with a systemd Node.js ingest API confined by AppArmor and UFW.
+- [baremetal-llm-watchdog](https://github.com/Mostafa-Kamel-Elsoudy/baremetal-llm-watchdog): Python systemd daemon for host and GPU thermals and Ollama/vLLM probes, with Slack and syslog alerting.
+- [vip-ran-rca-copilot](https://github.com/Mostafa-Kamel-Elsoudy/vip-ran-rca-copilot): complaint, KPI and alarm correlation with ordered rule evaluation and RCA report output.
 
-- **CyberDefenders blue-team labs**: network forensics, memory forensics, threat intel, and phishing analysis, tracked daily in [soc-analyst-learning-log](https://github.com/Mostafa-Kamel-Elsoudy/soc-analyst-learning-log)
-- **Red Hat RH124** system administration training (completed)
-- Actively applying to **SOC Analyst L1** and junior blue-team roles in Cairo
+## Also here
 
-## Tools I work with
-
-Linux (RH124) · Python · Bash · SQL · Wireshark · Volatility · Git · data validation and ETL
-
-## Repos worth a look
-
-- [soc-analyst-learning-log](https://github.com/Mostafa-Kamel-Elsoudy/soc-analyst-learning-log): my daily SOC training log, roadmap, and lab notes
-- [vip-ran-rca-copilot](https://github.com/Mostafa-Kamel-Elsoudy/vip-ran-rca-copilot): root-cause analysis automation prototype (Python, alarm correlation)
-- [doe-etl-pipeline](https://github.com/Mostafa-Kamel-Elsoudy/doe-etl-pipeline), [retail-data-pipeline](https://github.com/Mostafa-Kamel-Elsoudy/retail-data-pipeline), [orders-cleaning-pyspark](https://github.com/Mostafa-Kamel-Elsoudy/orders-cleaning-pyspark): data pipelines with validation and tests
+- [soc-analyst-learning-log](https://github.com/Mostafa-Kamel-Elsoudy/soc-analyst-learning-log): daily SOC training log and CyberDefenders lab notes.
 
 ## Contact
 
